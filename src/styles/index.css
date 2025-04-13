@@ -9,3 +9,81 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    background-image: url(../img/pattern.jpg);
+    background-repeat: repeat;
+    font-family: "Handlee", cursive;
+}
+
+h1{
+    margin-left: 15%;
+    color:black;
+
+    font-weight: bold;
+    font-style: normal;
+}
+li{
+    list-style: none;
+    padding-left:20px;
+    padding-bottom: 0px;
+    border:1px solid rgb(246,244,244);
+    height: 50px;
+    width: 100%;
+    padding-top:10px;
+    transition: all 1s;
+}
+
+li:hover button{
+    display:inline;
+    transition: all 1s;
+}
+
+
+ul{
+    padding: 0px;
+    border:1px solid rgb(246,244,244);
+    transition: all 1s;
+}
+
+.lista{
+    border:1px solid rgb(246,244,244);
+    box-shadow: 0px 5px 5px black;
+    background-color:rgb(249,249,249);
+}
+
+input {
+    border:1px solid rgb(246,244,244);
+    height: 50px;
+    background-color:rgb(249,249,249);
+    outline: 1px solid rgb(246,244,244);
+}
+
+input:focus{
+    border:1px solid rgb(246,244,244);
+}
+
+input:active{
+    border:1px solid rgb(246,244,244);
+}
+
+
+.Summary{
+    font-size: small;
+    margin-left: 0px;
+    list-style-position: inside;
+    height:30px;
+}
+
+button{
+    border: none;
+    color:red;
+    font-size: larger;
+    background-color:rgb(249,249,249);
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom:10px;
+    padding-top: 0px;
+    display: none;
+}
